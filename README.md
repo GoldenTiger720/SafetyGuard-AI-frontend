@@ -84,24 +84,10 @@ The system utilizes publicly available datasets for training and fine-tuning det
 
 ### Backend Setup
 
-```bash
+````bash
 # Clone repository
-git clone https://github.com/yourusername/safetyguard-ai.git
-cd safetyguard-ai/backend
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Download pre-trained models
-python scripts/download_models.py
-
-# Start the backend server
-python app.py
-```
+git clone https://github.com/GoldenTiger720/SafetyGuard-AI-frontend.git
+cd safetyguard-ai/frontend
 
 ### Frontend Setup
 
@@ -114,7 +100,7 @@ npm install
 
 # Start development server
 npm run dev
-```
+````
 
 ## Usage Guide
 
